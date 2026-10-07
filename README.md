@@ -72,7 +72,25 @@ The implemented security scenarios include:
 8. Expired TTL
 
 These experiments evaluate the verification conditions implemented in the TSTV prototype. The results should therefore be interpreted within the tested experimental conditions rather than as a universal security guarantee.
+## Experimental Figures
 
+### Figure3_End_to_End_TSTV_Performance.png
+
+Mean end-to-end TSTV processing time across workloads of 100–500 users, with 95% confidence intervals.
+
+![Figure 3: End-to-end TSTV processing performance](figures/TSTV_Figure_3_End_to end TSTV performance with 95% CI.png)
+
+### Figure4_Payload_Size_Performance.png
+
+Mean end-to-end processing time for payload sizes from 64 to 4096 bytes, with 95% confidence intervals.
+
+![Figure 4: Payload-size performance](figures/TSTV_Figure_4_payload-size performance with 95% confidence intervals.png)
+
+### Figure5_Stage_Wise_TSTV_Performance.pnge
+
+Mean processing time for registration, UCP authentication, DCP verification, and the complete end-to-end TSTV workflow across 100–500 users.
+
+![Figure 5: Stage-wise TSTV performance](figures/TSTV_Figure_5_Stage-wise TSTV performance.png)
 ## Environment
 
 The reported experimental environment used:
